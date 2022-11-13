@@ -1,0 +1,43 @@
+#love {
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    gap: 2rem;
+    z-index: 2;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+
+.navbar>li {
+    font-size: 50px;
+    color: #fff;
+    z-index: 2;
+    list-style: none;
+}
+.navbar>li:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.buttonRuilt>button {
+    padding: 2px 100px;
+    font-size:50px;
+    border-radius: 40px;
+    background-color: rgba(204, 0, 255, 0.4);
+    color: #fff;
+}
+.buttonRuilt>button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
