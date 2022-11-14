@@ -69,7 +69,7 @@ function LuckModal() {
   //     })
   const navigate = useNavigate();
   useEffect(() => {
-    axios.get('http://103.121.91.135:8080/api/tarot/TAI_VAN')
+    axios.get('https://tarot.nctuanit.com/api/tarot/TAI_VAN')
       .then(res => { setLove(res.data); })
       .catch(err => { console.log(err); })
   }, [])

@@ -16,7 +16,7 @@ function Job() {
         <div className="content">
           <div className="heading">
             <span>My muse tarot</span>
-            <span>Bối bài cùng nàng thơ</span>
+            <span>Bói bài cùng nàng thơ</span>
             <span>Tình yêu - Công việc - Tài vận</span>
           </div>
           <div className="buttonRuilt">
