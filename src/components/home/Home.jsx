@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 function Home() {
   const navigate = useNavigate()
   return (
-    <div id="home">
+    <div id="home"> 
       {/* <video src={bgVideo} autoPlay loop muted /> */}
       <div className="content">
         <div className="heading">
@@ -22,6 +22,6 @@ function Home() {
       </div>
     </div>
   )
-}
+} /**chinh ta */
 
 export default Home
